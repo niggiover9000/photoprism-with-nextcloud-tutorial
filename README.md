@@ -5,7 +5,7 @@ This is a tutorial on how to set up photoprism using the nextcloud photos folder
 You need to find the folder to which the photos are uploaded. In my case, thats *"/etc/ncp/files/Photos/"*
 
 ## Install Photoprism
-You will need to map the path of your photos to your photoprism container. Please replace *"/etc/ncp/files/Photos/"* with the path to your photos folder:
+You will need to map the path of your photos to your photoprism container. Please replace *"/etc/ncp/files/Photos/"* with the path to your photos folder. "ncp" is the user name of the account:
 ```
 sudo docker run -d \
   --name photoprism \
@@ -26,4 +26,4 @@ In the photoprism web interface (`localhost:2342`) navigate to _library_ and sta
 Leave them [here](https://github.com/niggiover9000/photoprism-with-nextcloud-tutorial/issues)
 
 ## Suggestions?
-suggestions for improvement of this tutorial? Please make a pull request.
+Suggestions for improvement of this tutorial? Please make a pull request.
